@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+/*Navbar*/
+
+header{
+    z-index: 3;
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 1vh;
+    background-size: cover;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(32, 32, 32) 35%, rgba(252, 252, 252, 0) 100%);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+.Logo img{
+    height: 10vh;
+    width: 5vw;
+}
+
+nav img{
+    margin: 1vh 0.2vw;
+    height: 7vh;
+    width: 3.5vw;
+}
+
+/* Slider*/ 
+
+.carrusel{
+    display: flex;
+    position: relative;
+    margin-left: 20vw;
+    flex-direction: column;
+    width: 60vw;
+    overflow: hidden;
+    
+}
+.sections{
+    display: flex;
+    width: 400%;
+    flex-direction: row;
+    padding-left: 10vw; 
+    margin-left: -90%;
+}
+
+.sections section{
+    background-size: 100% 100%;
+    width: 70vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+/*Buttons*/
+
+.button-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 88.3%;
+}
+
+.button-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 8.3%;
+}
+
+#button{
+   width: 40px;
+   height: 40px;
+}
