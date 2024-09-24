@@ -102,7 +102,7 @@ nav img{
     border-radius: 8px;
     padding: 20px;
     text-align: center;
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
     cursor: pointer;
     font-family: monospace;
     font-size: 2cap;
