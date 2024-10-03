@@ -7,7 +7,7 @@
 header{
     z-index: 3;
     position: absolute;
-    width: 98vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -34,6 +34,10 @@ nav img{
 
 /* Slider*/ 
 
+.bg-slider{
+    background-color: #ffff;
+    border-radius: 0 0 0 50px;
+}
 .carrusel{
     display: flex;
     position: relative;
@@ -54,9 +58,9 @@ nav img{
 
 .sections section{
     background-size: 100% 100%;
-    width: 70vw;
+    width: 100%;
     height: 70vh;
-    object-fit: cover;
+   
 }
 
 
@@ -69,7 +73,7 @@ nav img{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 88.3%;
+    left: 84.3%;
 }
 
 .button-left{
@@ -79,7 +83,7 @@ nav img{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: 8.3%;
+    left: 4.3%;
 }
 
 #button{
